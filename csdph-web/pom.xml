@@ -21,12 +21,25 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>csdp.third</groupId>
 			<artifactId>com.thinkgem.jeesite.static</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/com.thinkgem.jeesite.static-0.0.1-SNAPSHOT.jar</systemPath>
 		</dependency>
+		<dependency>
+			<groupId>csdp.third</groupId>
+			<artifactId>com.thinkgem.jeesite.core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/com.thinkgem.jeesite.core-0.0.1-SNAPSHOT.jar</systemPath>
+		</dependency>
+		<!-- <dependency> </dependency> <dependency> <groupId>com.csdph</groupId> 
+			<artifactId>csdph-core</artifactId> <version>${project.version}</version> 
+			</dependency> -->
+
 	</dependencies>
 	<build>
 		<finalName>csdph-web</finalName>
